@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Group-Id: io.jenkins.plugins
+Artifact-Id: demoPlugin
+Short-Name: demoPlugin
+Long-Name: TODO Plugin
+Url: https://github.com/jenkinsci/demoPlugin-plugin
+Plugin-Version: 1.0-SNAPSHOT (private-f4e4d358-shivajee)
+Hudson-Version: 2.414.3
+Jenkins-Version: 2.414.3
+Plugin-Developers: 
+Plugin-License-Name: MIT License
+Plugin-License-Url: https://opensource.org/license/mit/
+Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/demoPlugin-pl
+ ugin
+Plugin-ScmTag: HEAD
+Plugin-ScmUrl: https://github.com/jenkinsci/demoPlugin-plugin
+Plugin-GitHash: f4e4d3583a274df5c05b5c5e1bc30d6bcde79f70
+Implementation-Build: f4e4d3583a274df5c05b5c5e1bc30d6bcde79f70
+Libraries: /home/shivajee/Penge/open-source/demo-jenkins-plugin/src/main
+ /resources,/home/shivajee/Penge/open-source/demo-jenkins-plugin/target/
+ classes
+Resource-Path: /home/shivajee/Penge/open-source/demo-jenkins-plugin/src/
+ main/webapp
+
