@@ -1,0 +1,7 @@
+io/jenkins/plugins/HelloWorldBuilder$DescriptorImpl.class
+META-INF/annotations/hudson.Extension.txt
+io/jenkins/plugins/HelloWorldBuilder.stapler
+io/jenkins/plugins/Messages.class
+io/jenkins/plugins/HelloWorldBuilder.class
+META-INF/annotations/hudson.Extension
+META-INF/services/annotations/org.kohsuke.accmod.Restricted
