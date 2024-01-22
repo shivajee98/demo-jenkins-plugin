@@ -1,5 +1,6 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <project>
+  <actions/>
   <description></description>
   <keepDependencies>false</keepDependencies>
   <properties/>
@@ -12,8 +13,11 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <io.jenkins.plugins.HelloWorldBuilder plugin="demoPlugin@1.0-SNAPSHOT">
-      <name>fgb</name>
+      <name>asdfvarevraef</name>
     </io.jenkins.plugins.HelloWorldBuilder>
+    <io.jenkins.plugins.delayBuild plugin="demoPlugin@1.0-SNAPSHOT">
+      <delay>-545445</delay>
+    </io.jenkins.plugins.delayBuild>
   </builders>
   <publishers/>
   <buildWrappers/>

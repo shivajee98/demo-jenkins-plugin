@@ -4,7 +4,7 @@ Artifact-Id: demoPlugin
 Short-Name: demoPlugin
 Long-Name: TODO Plugin
 Url: https://github.com/jenkinsci/demoPlugin-plugin
-Plugin-Version: 1.0-SNAPSHOT (private-f4e4d358-shivajee)
+Plugin-Version: 1.0-SNAPSHOT (private-0e99b526-shivajee)
 Hudson-Version: 2.414.3
 Jenkins-Version: 2.414.3
 Plugin-Developers: 
@@ -14,8 +14,8 @@ Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/demoPlugin-pl
  ugin
 Plugin-ScmTag: HEAD
 Plugin-ScmUrl: https://github.com/jenkinsci/demoPlugin-plugin
-Plugin-GitHash: f4e4d3583a274df5c05b5c5e1bc30d6bcde79f70
-Implementation-Build: f4e4d3583a274df5c05b5c5e1bc30d6bcde79f70
+Plugin-GitHash: 0e99b526d6f2dcd20d723bba932d6b9d0dad48e4
+Implementation-Build: 0e99b526d6f2dcd20d723bba932d6b9d0dad48e4
 Libraries: /home/shivajee/Penge/open-source/demo-jenkins-plugin/src/main
  /resources,/home/shivajee/Penge/open-source/demo-jenkins-plugin/target/
  classes
