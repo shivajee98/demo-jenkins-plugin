@@ -45,4 +45,44 @@ public class Messages {
         return new Localizable(holder, "HelloWorldBuilder.Name");
     }
 
+    /**
+     * Key {@code Delay.NotNumber}: {@code Enter A Valid Number}.
+     * 
+     * @return
+     *     {@code Enter A Valid Number}
+     */
+    public static String Delay_NotNumber() {
+        return holder.format("Delay.NotNumber");
+    }
+
+    /**
+     * Key {@code Delay.NotNumber}: {@code Enter A Valid Number}.
+     * 
+     * @return
+     *     {@code Enter A Valid Number}
+     */
+    public static Localizable _Delay_NotNumber() {
+        return new Localizable(holder, "Delay.NotNumber");
+    }
+
+    /**
+     * Key {@code Delay.ErrorNegativeNumber}: {@code Enter Positive Number}.
+     * 
+     * @return
+     *     {@code Enter Positive Number}
+     */
+    public static String Delay_ErrorNegativeNumber() {
+        return holder.format("Delay.ErrorNegativeNumber");
+    }
+
+    /**
+     * Key {@code Delay.ErrorNegativeNumber}: {@code Enter Positive Number}.
+     * 
+     * @return
+     *     {@code Enter Positive Number}
+     */
+    public static Localizable _Delay_ErrorNegativeNumber() {
+        return new Localizable(holder, "Delay.ErrorNegativeNumber");
+    }
+
 }

@@ -1,0 +1,22 @@
+Started by user unknown or anonymous
+Running as SYSTEM
+Building in workspace /home/shivajee/Penge/open-source/demo-jenkins-plugin/work/workspace/fg
+Delay Build for 0 ms
+asdfvarevraef
+Delay Build for -515 ms
+ERROR: Build step failed with exception
+java.lang.IllegalArgumentException: timeout value is negative
+	at java.base/java.lang.Thread.sleep(Thread.java:500)
+	at io.jenkins.plugins.delayBuild.perform(delayBuild.java:28)
+	at hudson.tasks.BuildStepCompatibilityLayer.perform(BuildStepCompatibilityLayer.java:87)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:818)
+	at hudson.model.Build$BuildExecution.build(Build.java:199)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:164)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:526)
+	at hudson.model.Run.execute(Run.java:1900)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Build step 'delayBuild' marked build as failure
+Finished: FAILURE
