@@ -1,13 +1,13 @@
-# demoPlugin
+# DemoPlugin
 
 ## Introduction
 
-TODO Describe what your plugin does here
+My Plugin prints name in the output console and delays time for building a job in millisecond.
 
 ## Getting started
 
-TODO Tell users how to configure your plugin here, include screenshots, pipeline examples and 
-configuration-as-code examples.
+To run locally, ensure you have Java and Maven installed locally.
+Clone the repo and run "mvn clean hpi:run"
 
 ## Issues
 
