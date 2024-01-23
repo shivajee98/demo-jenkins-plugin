@@ -1,0 +1,58 @@
+Jan 23, 2024 5:39:05 PM org.jvnet.hudson.test.WarExploder explode
+INFO: Exploding /home/shivajee/.m2/repository/org/jenkins-ci/main/jenkins-war/2.414.3/jenkins-war-2.414.3.war into /home/shivajee/Penge/open-source/demo-jenkins-plugin/target/jenkins-for-test
+Jan 23, 2024 5:39:06 PM org.eclipse.jetty.server.handler.ContextHandler setContextPath
+WARNING: Empty contextPath
+Jan 23, 2024 5:39:06 PM org.eclipse.jetty.server.Server doStart
+INFO: jetty-10.0.18; built: 2023-10-27T01:59:58.245Z; git: 8545fd9bf4cd0d0838f626b405fd4963441546b7; jvm 21.0.1+12-29
+Jan 23, 2024 5:39:06 PM org.eclipse.jetty.webapp.StandardDescriptorProcessor visitServlet
+INFO: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+Jan 23, 2024 5:39:06 PM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+INFO: Session workerName=node0
+Jan 23, 2024 5:39:06 PM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started o.e.j.w.WebAppContext@2cec704c{Jenkins v2.414.3,/,file:///home/shivajee/Penge/open-source/demo-jenkins-plugin/target/jenkins-for-test/,AVAILABLE}{/home/shivajee/Penge/open-source/demo-jenkins-plugin/target/jenkins-for-test}
+Jan 23, 2024 5:39:06 PM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@7e7f0f0a{HTTP/1.1, (http/1.1)}{localhost:42837}
+Jan 23, 2024 5:39:06 PM org.eclipse.jetty.server.Server doStart
+INFO: Started Server@2d746ce4{STARTING}[10.0.18,sto=0] @1793ms
+Jan 23, 2024 5:39:06 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Jan 23, 2024 5:39:06 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Jan 23, 2024 5:39:07 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Jan 23, 2024 5:39:07 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Jan 23, 2024 5:39:07 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Jan 23, 2024 5:39:07 PM jenkins.InitReactorRunner$1 onAttained
+INFO: System config loaded
+Jan 23, 2024 5:39:07 PM jenkins.InitReactorRunner$1 onAttained
+INFO: System config adapted
+Jan 23, 2024 5:39:07 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Jan 23, 2024 5:39:07 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Configuration for all jobs updated
+Jan 23, 2024 5:39:07 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Jan 23, 2024 5:39:07 PM org.eclipse.jetty.server.Server doStart
+INFO: jetty-10.0.18; built: 2023-10-27T01:59:58.245Z; git: 8545fd9bf4cd0d0838f626b405fd4963441546b7; jvm 21.0.1+12-29
+Jan 23, 2024 5:39:07 PM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+INFO: Session workerName=node0
+Jan 23, 2024 5:39:07 PM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started o.e.j.s.ServletContextHandler@4af45442{/,null,AVAILABLE}
+Jan 23, 2024 5:39:07 PM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@176f7f3b{HTTP/1.1, (http/1.1)}{0.0.0.0:40921}
+Jan 23, 2024 5:39:07 PM org.eclipse.jetty.server.Server doStart
+INFO: Started Server@58740366{STARTING}[10.0.18,sto=0] @2693ms
+Jan 23, 2024 5:39:08 PM org.eclipse.jetty.server.Server doStop
+INFO: Stopped Server@2d746ce4{STOPPING}[10.0.18,sto=0]
+Jan 23, 2024 5:39:08 PM org.eclipse.jetty.server.AbstractConnector doStop
+INFO: Stopped ServerConnector@7e7f0f0a{HTTP/1.1, (http/1.1)}{localhost:0}
+Jan 23, 2024 5:39:08 PM org.eclipse.jetty.server.handler.ContextHandler doStop
+INFO: Stopped o.e.j.w.WebAppContext@2cec704c{Jenkins v2.414.3,/,file:///home/shivajee/Penge/open-source/demo-jenkins-plugin/target/jenkins-for-test/,STOPPED}{/home/shivajee/Penge/open-source/demo-jenkins-plugin/target/jenkins-for-test}
+Jan 23, 2024 5:39:08 PM hudson.lifecycle.Lifecycle onStatusUpdate
+INFO: Stopping Jenkins
+Jan 23, 2024 5:39:08 PM hudson.lifecycle.Lifecycle onStatusUpdate
+INFO: Jenkins stopped
+Jan 23, 2024 5:39:08 PM org.jvnet.hudson.test.TemporaryDirectoryAllocator dispose
+INFO: deleting /home/shivajee/Penge/open-source/demo-jenkins-plugin/target/tmp/j h8887156675175921606
