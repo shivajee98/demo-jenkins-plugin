@@ -13,10 +13,10 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <io.jenkins.plugins.HelloWorldBuilder plugin="demoPlugin@1.0-SNAPSHOT">
-      <name>asdfvarevraef</name>
+      <name>shivajee</name>
     </io.jenkins.plugins.HelloWorldBuilder>
     <io.jenkins.plugins.delayBuild plugin="demoPlugin@1.0-SNAPSHOT">
-      <delay>-545445</delay>
+      <delay>2222</delay>
     </io.jenkins.plugins.delayBuild>
   </builders>
   <publishers/>

@@ -1,0 +1,16 @@
+=== Starting CheckSleepOutput(io.jenkins.plugins.DelayBuildTest)
+   0.079 [id=35]	INFO	o.jvnet.hudson.test.WarExploder#explode: Picking up existing exploded jenkins.war at /home/shivajee/Penge/open-source/demo-jenkins-plugin/target/jenkins-for-test
+   0.221 [id=35]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:35025/jenkins/
+   0.334 [id=49]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.350 [id=58]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.756 [id=48]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.759 [id=61]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.761 [id=50]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   0.850 [id=60]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   0.850 [id=54]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   0.851 [id=54]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   0.852 [id=54]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   0.949 [id=60]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+   1.540 [id=35]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+   1.556 [id=35]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+   1.583 [id=35]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting /home/shivajee/Penge/open-source/demo-jenkins-plugin/target/tmp/j h14827015890940607958

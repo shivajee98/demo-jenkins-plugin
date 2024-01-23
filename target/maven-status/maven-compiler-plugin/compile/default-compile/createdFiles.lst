@@ -1,11 +1,11 @@
-io/jenkins/plugins/delayBuild/DescriptorImpl/doCheckDelay.stapler
+io/jenkins/plugins/DelayBuild.stapler
 META-INF/annotations/hudson.Extension.txt
-io/jenkins/plugins/delayBuild.stapler
 io/jenkins/plugins/HelloWorldBuilder.class
-io/jenkins/plugins/delayBuild$DescriptorImpl.class
 META-INF/services/annotations/org.kohsuke.accmod.Restricted
-io/jenkins/plugins/delayBuild.class
 io/jenkins/plugins/HelloWorldBuilder$DescriptorImpl.class
+io/jenkins/plugins/DelayBuild/DescriptorImpl/doCheckDelay.stapler
 io/jenkins/plugins/HelloWorldBuilder.stapler
 io/jenkins/plugins/Messages.class
+io/jenkins/plugins/DelayBuild$DescriptorImpl.class
+io/jenkins/plugins/DelayBuild.class
 META-INF/annotations/hudson.Extension

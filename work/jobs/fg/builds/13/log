@@ -7,7 +7,7 @@ Delay Build for -515 ms
 ERROR: Build step failed with exception
 java.lang.IllegalArgumentException: timeout value is negative
 	at java.base/java.lang.Thread.sleep(Thread.java:500)
-	at io.jenkins.plugins.delayBuild.perform(delayBuild.java:28)
+	at io.jenkins.plugins.DelayBuild.perform(delayBuild.java:28)
 	at hudson.tasks.BuildStepCompatibilityLayer.perform(BuildStepCompatibilityLayer.java:87)
 	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
 	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:818)
